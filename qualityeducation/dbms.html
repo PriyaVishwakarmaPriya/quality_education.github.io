@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dbms</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Satisfy&family=Shizuru&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Lavishly+Yours&family=Oleo+Script:wght@700&family=Rubik+Puddles&family=Satisfy&family=Tangerine:wght@700&family=Updock&family=Yellowtail&display=swap');
+       body{
+            margin:0px;
+            padding:0px;
+            background-color:darkseagreen;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+    
+        
+        
+
+        .left{
+           /* border:4px solid royalblue;*/
+            display: inline-block;
+            position:absolute;
+            left: 40px;
+            top:20px;
+        }
+
+        .mid{
+           /* border:4px solid rgb(225, 65, 201);*/
+            display: block;
+            width:33%;
+            margin:20px auto;
+            top:20px;
+
+        }
+        .right{
+           /* border:4px solid rgb(124, 225, 65);*/
+            position:absolute;
+            right: 40px;
+            top:20px;
+        }
+
+        .navbar{
+                 display: inline-block;
+        }
+        .navbar li{
+                       display: inline-block;
+                       font-size: 20px;
+        }
+        .navbar li a{
+            color:black;
+            text-decoration: none;
+            padding: 10px 10px;
+        }
+
+        .navbar li a:hover,.navbar li a.active{
+           
+           color:bisque;
+
+        }
+        
+        
+        .left img{
+            width: 110px;
+            
+            
+        }
+        .left div{
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Cookie', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lavishly Yours', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Updock', cursive;
+font-family: 'Yellowtail', cursive;}
+        
+        .btn{
+            padding:0px 10px;
+            background-color: crimson;
+            margin: 0px 10px;
+            color: aliceblue;
+            border: 2px solid black;
+            border-radius: 2px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;
+           
+        }
+        .btn:hover{
+            background-color: wheat;
+        }
+        .container{
+            border:4px solid rgb(29, 2, 2) ;
+            padding: 30px 30px;
+            margin: 60px auto;
+            width: 50%;
+            border-radius: 20px;
+        }
+
+        
+
+        .container h1{
+            text-align: center;
+        }
+        
+    
+        
+        
+
+     </style>  
+</head>
+<body>
+    <header class="header">
+
+    
+        <div class="left">
+       <img src="https://thumbs.dreamstime.com/b/initial-letter-qe-logo-design-vector-template-digital-abstract-circle-180420420.jpg" alt="">
+         <div>Quality Education</div>
+        </div>
+        <div class="mid">
+           <ul type="disc"class="navbar">
+               <li><a href="home.html">Home</a></li>
+               <li><a>About Us </a></li>
+               <li><a>Center</a></li>
+               <li><a>Contact Us</a></li>
+           </ul>
+        </div>
+   
+        <div class="right">
+    <button class="btn"><a href="#">Call Us Now</a></button><button class="btn"><a href="#">E-mail Us</a></button>
+        </div>
+    </header> 
+    <div class="dbms">
+        <div><h1 style="font-size: 30px; text-align: center;display: block;">DATABASE MANAGEMENT SYSTEM</h1></div>   
+   <div><h3 style="color: red;">Defination:</h3><p>Database management system (DBMS) is a software which is use to manage the database. For example, MySQL, Oracle, are commercial database which is used in different applications.DBMS provides an interface to perform various operations like database creation, storing data, updating data, creating a table in the database etc.It provides protection and security to the database. In case of multiple users, it also maintains data consistency.</p></div>
+    <div><h3 style="color:royalblue;">Types of DBMS architecture:</h3>
+          <p style="color:darkgreen;">1-Tier architecture :</p><P>In this architecture, the database is directly available to the user.Any changes done are directly done on the database itself. It does not provide a handy tool for end users.The 1-Tier architecture is used for development of the local application, where programmers can directly communicate with the database for the quick response.</P>
+          <p style="color:darkgreen;">2-Tier architecture :</p><p>The 2-Tier architecture is same as basic client-server.In the two-tier architecture, applications on the client end can directly communicate with the database at the server side. For this interaction, API’s such as : ODBC, JDBC are used.The user interfaces and application programs are run on the client-side</p>
+          <p style="color:darkgreen;">3-Tier architecture :</p> <p>The 3-Tier architecture contains another layer between the client and server. In this architecture, client cannot directly communicate with the server.The application on the client-end interacts with an application server which further communicates with the database system.End user has no idea about the existence of the database beyond the application server. The database also has no idea about any other user beyond the application.</p>
+    </div>
+    <div><h3 style="color:red;">ER Model</h3><p>An entity relationship model (ER model) is a way of representing the entities and the relationships between the entities in order to create a database.</p></div>
+    <div><h3 style="color:royalblue;">Elements/notation of ER model/diagram :</h3>
+          <p style="color:darkgreen;">Entity : </p><p>An entity is a real world object that can be easily identifiable.An entity is an object that exists and is distinguishable from other objects.</p>
+          <p style="color:darkgreen;">Entity-Set : </p><p>Entity set is a collection of similar type of entities.An entity set may contain entities with attribute sharing similar values.</p>
+          <p style="color:darkgreen;">Attribute :</p><p>An attribute gives the characteristics of the entity.It is also called as data element, data field, a field, a data item, or an elementary item.</p>
+          <p style="color:darkgreen;">Relationship :</p><p>A relationship is the association between entities or entity occurrence.Relationship is represented by diamond with straight lines connecting the entities.</p>
+    </div>
+    <div><h3 style="color:royalblue;">Types of attributes used in conceptual data model :</h3>
+          <p style="color:darkgreen;">Simple attribute :</p><p> Simple attributes are atomic values, which cannot be divided further. For example, a student’s phone number is an atomic value of 10 digits.</p>
+          <p style="color:darkgreen;">Composite attribute :</p><p>Composite attributes are made of more than one simple attribute. For example, a student's complete name may have first_name and last_name</p>
+          <p style="color:darkgreen;">Derived attribute :</p><p> Derived attributes are the attributes that do not exist in the physical database, but their values are derived from other attributes present in the database. For example, average_salary in a department should not be saved directly in the database, instead it can be derived.</p>
+          <p style="color:darkgreen;">Single value attribute :</p><p>Single-value attributes contain single value.For example, Social_Security_Number</p>
+          <p style="color:darkgreen;">Multi value attribute :</p><p>Multi-value attributes may contain more than one values. For example, a person can have more than one phone number, email_address, etc</p>
+    </div>
+    <div><h3 style="color:red ;">Key</h3><p>Key is a attribute or set of attributes that is used to identify data in entity sets. Key is defined for unique identification of rows in table.Consider the following example of an Employee table :Employee (EmployeeID, FullName, SSN, DeptID)</p>
+    <div><h3 style="color:royalblue;">Various types of keys are :</h3>
+          <p style="color:darkgreen;">Primary key: </p><p>Primary key uniquely identifies each record in a table and must never, be the same for records. Here in Employee table we can choose either EmployeeID or SSN columns as a primary key. Primary key is a candidate key that is used for unique identification of entities within the table.Primary key cannot be null.Any table has a unique primary key.</p>
+          <p style="color:darkgreen;">Super key:</p><p>A super key for an entity is a set of one or more attribute whose combined value uniquely identifies the entity in the entity set. For example : Here in employee table (EmployeeID, FullName) or (EmployeeID, FullName, DeptID) is a super key.</p>
+          <p style="color:darkgreen;">Candidate key:</p><p>A candidate key is a column, or set of column, in the table that can uniquely identify any database record without referring to any other data</p>
+          <p style="color:darkgreen;">Composite key :</p><p>A composite key is a combination of two or more columns in a table that can be used to uniquely identify each row in the table.</p>
+          <p style="color:darkgreen;">Alternate key :</p><p>The alternate key of any table are those candidate keys which are not currently selected as the primary key.</p>
+          <p style="color:darkgreen;">Foreign key :</p><p>Foreign key represents the relationship between tables and ensures the referential integrity rule.</p>
+    </div>
+    <div><h3 style="color:red ;">Relational Model</h3><p>A relational model is a collection of conceptual tools for describing data,data relationships, data semantics and consistency constraints. It is the primary data model for commercial data processing applications.The relational model uses collection of tables to represent both data and the relationships among those data. Each table has multiple columns and each column has a unique name</p></div>
+    <div><h3 style="color:red ;">Constraints</h3><p> A constraint is a rule that is used for optimization purposes. Constraints enforce limits to the data or type of data that can be inserted/ updated/deleted from a table. The whole purpose of constraints is to maintain the data integrity during an update/delete/insert into a table</p></div>
+    <div><h3 style="color:royalblue;">Types of constraints :</h3>
+          <p style="color:darkgreen;"> 1.NOT NULL :</p><p>NOT NULL constraint makes sure that a column does not hold NULL value.When we do not provide value for a particular column while inserting a record into a table, it takes NULL value by default. By specifying NULL constraint, we make sure that a particular column cannot have NULL values. </p>
+          <p style="color:darkgreen;"> 2.Domain Constraints :</p><p>specifies that within each tuple the value pf each attributes must be an atomic value from the domain of it.</p>
+          <p style="color:darkgreen;"> 3.Key Constraints :</p><p>No two rows should have same attributes.</p>
+          <p style="color:darkgreen;"> 4.Entity integrity constraint :</p><p>This rule states that no attribute of primary key will contain a null value.If a relation has a null value in the primary key attribute, then uniqueness property of the primary key cannot be maintained. </p>
+          <p style="color:darkgreen;"> 5.Referential integrity constraints :</p><p>This rule states that if a foreign key refers to the primary key then every value of the foreign key must be null or be available.</p>
+    </div>
+    <div><h3 style="color:red ;">Relational algrbra</h3><p>The relational algebra is a procedural query language.It consists of a set of operations that take one or two relations as input and produces a new relation as a result.The operations in the relational algebra are select, project, union, set difference, cartesian product and rename.</p></div>
+    <div><h3 style="color:royalblue;">Basic relational algebra operations are as follows :</h3>
+          <p style="color:darkgreen;">Select Operation </p><p>The select operation selects tuples that satisfies a given predicate. Select operation is denoted by sigma .The predicate appears as a subscript to sigma. The argument relation is in parenthesis after the sigma.</p>
+          <p style="color:darkgreen;">Project Operation </p><p>The project operation is a unary operation that returns its argument relation with certain attributes left out.In project operation duplicate rows are eliminated.Projection is denoted by pi.</p>
+          <p style="color:darkgreen;">Set difference Operation </p><p>The set difference operation denoted by (-) allows us to find tuples that are in one relation but are not in another.The expression r - s produces a relation containing those tuples in r but not in s</p>
+          <p style="color:darkgreen;">Cartesian product Operation</p><p>The cartesian product operation, denoted by a cross (*), allows us to combine information from any two relations. The cartesian product of relations r1 and r2 is written as r1 * r2</p>
+    </div>
+    <div><h3 style="color:red ;">Structured Query Language</h3><p>It is a non-procedural language that can be used for retrieval and  management of data stored in relational database.It can be used for defining the structure of data, modifying data in the database and specifying the security constraints.</p><p>The two major categories of SQL commands are -</p><p>a. Data Definition Language (DDL) : DDL provides commands that can be used to create, modify and delete database objects.</p><p>b. Data Manipulation Language (DML) : DML provides commands that can be used to access and manipulate the data, that is, to retrieve, insert, delete and update data in a database.</p></div>
+    <div><h3 style="color:royalblue;">Characteristics of SQL :</h3><p>1. SQL usage is extremely flexible.</p> <p> 2. It uses a free form syntax that gives the user the ability to structure SQL statements in a way best suited to them.</p><p>3. Each SQL request is parsed by the RDBMS before execution, to check for proper syntax and to optimize the request.</p> <p>4. Unlike certain programming languages, there is no need to start SQL statements in a particular column or be finished in a single line. The same SQL request can be written in a variety of ways.</p></div>
+    <div><h3 style="color:royalblue;">Different types of SQL commands are :</h3>
+          <p style="color:darkgreen;">Insert</p><p>This command is used to insert tuples in a table. This command adds a single tuple at a time in a table.</p><p style="color:blueviolet ;">Syntax : Insert into table_name (attribute1 , ..., attribute n ) values (values_list);</p>
+          <p style="color:darkgreen;">Update</p><p>This command is used to make changes in the values of attributes of the table.It use set and where clause.</p><p style="color:blueviolet ;">Syntax :Update table_name set attribute_name = new_value where condition;</p>
+          <p style="color:darkgreen;">Delete</p><p>This command is used to remove tuples.Tuples can be deleted from only one table at a time.</p><p style="color:blueviolet ;">Syntax : Delete from table_name where condition;</p>
+          <p style="color:darkgreen;">Select</p><p>This command is used to retrieve a subset of tuples from one  or more table.</p><p style="color:blueviolet ;">Syntax : Select attribute1, ..., attributen from table_name where condition.</p>
+          <p style="color:darkgreen;">Alter table</p><p>This command is used to make changes in the structure of a table.</p><p style="color:blueviolet ;">Syntax:</p><p style="color:blueviolet ;">Alter table table_name add column_name datatype;</p><p style="color:blueviolet ;">Alter table table_name drop column column_name;</p><p style="color:blueviolet ;">Alter table table_name drop constraint constraint_name;</p>
+    </div>
+    <div><h3 style="color:red ;">Functional Dependency:</h3><p>A functional dependency is a constraint between two sets of attributes from the database.A functional dependency is denoted by X -> Y, between two sets of attributes X and Y that are subsets of R specifies a constraint on the possible tuples that can form a relation r.</p><p>The constraints for any two tuples t<sub>1</sub> and t<sub>2</sub> in r which have</p><p>t<sub>1</sub>[X]=t<sub>2</sub>[X]</p></div>
+    <div><h3 style="color:red ;">Normal Forms:</h3><p> Normal forms are simply stages of database design, with each stage  applying more strict rules to the types of information which can be stored in a table.Normal form is a method to normalize the relations in database.</p></div>
+    <div><h3 style="color:red ;">Transaction:</h3><p>A transaction is a logical unit of database processing that includes one or more database access operations; these include insertion, deletion, modification or retrieval operations.The database operations that form a transaction can be embedded within an application program.within an application program.By specifying explicit begin transaction and end transaction we can specify the transaction boundaries.If the database operations in a transaction do not update the database but only retrieve data, the transaction is called a read-only transaction.</p></div>
+    <div><h1 style="color:palevioletred;text-align: center;">************</h1>
+    </div>
+
+    </body>
+    </html>

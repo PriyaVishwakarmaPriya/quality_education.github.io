@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>toc</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Satisfy&family=Shizuru&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Lavishly+Yours&family=Oleo+Script:wght@700&family=Rubik+Puddles&family=Satisfy&family=Tangerine:wght@700&family=Updock&family=Yellowtail&display=swap');
+       body{
+            margin:0px;
+            padding:0px;
+            background-color:darkseagreen;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+    
+        
+        
+
+        .left{
+           /* border:4px solid royalblue;*/
+            display: inline-block;
+            position:absolute;
+            left: 40px;
+            top:20px;
+        }
+
+        .mid{
+           /* border:4px solid rgb(225, 65, 201);*/
+            display: block;
+            width:33%;
+            margin:20px auto;
+            top:20px;
+
+        }
+        .right{
+           /* border:4px solid rgb(124, 225, 65);*/
+            position:absolute;
+            right: 40px;
+            top:20px;
+        }
+
+        .navbar{
+                 display: inline-block;
+        }
+        .navbar li{
+                       display: inline-block;
+                       font-size: 20px;
+        }
+        .navbar li a{
+            color:black;
+            text-decoration: none;
+            padding: 10px 10px;
+        }
+
+        .navbar li a:hover,.navbar li a.active{
+           
+           color:bisque;
+
+        }
+        
+        
+        .left img{
+            width: 110px;
+            
+            
+        }
+        .left div{
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Cookie', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lavishly Yours', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Updock', cursive;
+font-family: 'Yellowtail', cursive;}
+        
+        .btn{
+            padding:0px 10px;
+            background-color: crimson;
+            margin: 0px 10px;
+            color: aliceblue;
+            border: 2px solid black;
+            border-radius: 2px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;
+           
+        }
+        .btn:hover{
+            background-color: wheat;
+        }
+        .container{
+            border:4px solid rgb(29, 2, 2) ;
+            padding: 30px 30px;
+            margin: 60px auto;
+            width: 50%;
+            border-radius: 20px;
+        }
+
+        
+
+        .container h1{
+            text-align: center;
+        }
+        
+    
+        
+        
+
+     </style>  
+</head>
+<body>
+    <header class="header">
+
+    
+        <div class="left">
+       <img src="https://thumbs.dreamstime.com/b/initial-letter-qe-logo-design-vector-template-digital-abstract-circle-180420420.jpg" alt="">
+         <div>Quality Education</div>
+        </div>
+        <div class="mid">
+           <ul type="disc"class="navbar">
+               <li><a href="home.html">Home</a></li>
+               <li><a>About Us </a></li>
+               <li><a>Center</a></li>
+               <li><a>Contact Us</a></li>
+           </ul>
+        </div>
+   
+        <div class="right">
+    <button class="btn"><a href="#">Call Us Now</a></button><button class="btn"><a href="#">E-mail Us</a></button>
+        </div>
+    </header> 
+    <div class="toc">
+        <div><h1 style="font-size: 30px; text-align: center;display: block;">THEORY OF COMPUTATION</h1></div>
+        <div><h3 style="color: red;">Defination:</h3><p>Theory of computation is a theoretical branch of Computer Science and Mathematics, which mainly deals with the logic of computation with respect to simple machines, referred to as automata. </p></div>
+        <div><h3 style="color: red;">Symbols:</h3><p>Symbols is the smallest building block, which can be any alphabet, letter, or picture. </p><p>eg.a,b,0,1...</p></div>
+        <div><h3 style="color: red;">Alphabets:</h3><p>Alphabets are a set of symbols, which are always finite. </p></div>
+        <div><h3 style="color: red;">String:</h3><p>A string is a finite sequence of symbols from some alphabet. A string is generally denoted as w and the length of a string is denoted as |w|. </p></div>
+        <div><h3 style="color: red;">L<sup>+</sup>:</h3><p> It is a Positive Closure that represents a set of all strings except Null or ε-strings.</p></div>
+        <div><h3 style="color: red;">L<sup>*</sup>:</h3><p>It is “Kleene Closure“, that represents the occurrence of certain alphabets for given language alphabets from zero to the infinite number of times. In which ε-string is also included.</p></div>
+        <div><h3 style="color: red;">Language:</h3><p>A language is a set of strings, chosen from some Σ* or we can say- 'A language is a subset of Σ* ''. A language that can be formed over 'Σ '' can be Finite or Infinite.</p></div>
+        <div><h3 style="color: red;">Finite Automata:</h3><p>Finite Automata(FA) is the simplest machine to recognize patterns. The finite automata or finite state machine is an abstract machine that has five elements or tuples. It has a set of states and rules for moving from one state to another but it depends upon the applied input symbol. Basically, it is an abstract model of a digital computer.</p></div>
+        <div><h3 style="color: royalblue;">Finite Automata has two type-</h3></div>
+        <div><h3 style="color: darkgreen ;">Deterministc Finite Automata:</h3><p>In DFA, for a particular input character, the machine goes to one state only. A transition function is defined on every state for every input symbol. Also in DFA null (or ε) move is not allowed, i.e., DFA cannot change state without any input character.It has 5 tuples: </p><p>{ Q, Σ, q, F, δ }</p><p>where,Q : Finite set of states.</p><p> Σ : set of Input Symbols.</p><p>q : Initial state.</p><p> F : set of Final States.</p><p> δ : Transition Function,  defined as δ : Q X Σ --> Q.</p></div>
+        <div><h3 style="color: darkgreen ;">Non-Deterministc Finite Automata:</h3><p>NFA is similar to DFA except following additional features: </p> <p>Null (or ε) move is allowed i.e., it can move forward without reading symbols. </p><p> Ability to transmit to any number of states for a particular input. </p><p>δ: Transition Function</p></p>  δ:  Q X (Σ U ε ) --> 2 ^ Q. </p></div>
+        <div><h3 style="color: red;">Regular Expressions:</h3><p>Regular Expressions are used to denote regular languages. An expression is regular if:</p><p>ɸ is a regular expression for regular language ɸ.</p><p>ɛ is a regular expression for regular language {ɛ}.</p><p>If a ∈ Σ (Σ represents the input alphabet), a is regular expression with language {a}.</p><p>If a and b are regular expression, a + b is also a regular expression with language {a,b}.</p><p>If a and b are regular expression, ab (concatenation of a and b) is also regular.</p><p>If a is regular expression, a* (0 or more times a) is also regular.</p></div>
+        <div><h3 style="color: red;">Pumping Lemma for regular languages:</h3><p>Pumping Lemma is used as a proof for irregularity of a language.</p><p>For any regular language L, there exists an integer n, such that for all x ∈ L with |x| ≥ n, there exists u, v, w ∈ Σ∗, such that x = uvw, and</p><p>(1) |uv| ≤ n</p><p>(2) |v| ≥ 1</p><p>(3) for all i ≥ 0: uv<sup>i</sup>w ∈ L</p></div>
+        <div><h3 style="color: red;">Pumping Lemma for Context-free Languages (CFL):</h3><p>Pumping Lemma for CFL states that for any Context Free Language L, it is possible to find two substrings that can be 'pumped' any number of times and still be in the same language. For any language L, we break its strings into five parts and pump second and fourth substring.</p><p>if L is a CFL, there exists an integer n, such that for all x ∈ L with |x| ≥ n, there exists u, v, w, x, y ∈ Σ∗, such that x = uvwxy, and</p><p>(1) |vwx| ≤ n</p><p>(2) |vx| ≥ 1</p><p>(3) for all i ≥ 0: uv<sup>i</sup>wx<sup>i</sup>y ∈ L</p></div>
+        <div><h3 style="color: red;">Derivation Tree</h3><p>It tells how string is derived using production rules from S</p></div>
+        <div><h3 style="color: royalblue;">Left most derivation (LMD)</h3><p>Leftmost derivation of a string from starting symbol S is done by replacing leftmost non-terminal symbol by RHS of corresponding production rule.</p></div>
+        <div><h3 style="color: royalblue;">Right most derivation (RMD)</h3><p>Rightmost derivation of a string from starting symbol S is done by replacing rightmost non-terminal symbol by RHS of corresponding production rule.</p></div>
+        <div><h3 style="color: royalblue;">Ambiguous Context Free Grammar:</h3><p>A context free grammar is called ambiguous if there exists more than one LMD or more than one RMD for a string which is generated by grammar. There will also be more than one derivation tree for a string in ambiguous grammar.</p></div>
+        <div><h3 style="color: royalblue;">Inherently Ambiguous Context Free Languages: </h3><p>A context free language is called ambiguous if there is no unambiguous grammar to define that language and it is also called inherently ambiguous Context Free Languages. </p></div>
+        <div><h3 style="color: red;">Pushdown Automata:</h3><p>Pushdown Automata is a finite automata with extra memory called stack which helps Pushdown automata to recognize Context Free Languages. A Pushdown Automata (PDA) can be defined as : </p><p>Q is the set of states</p><p>∑is the set of input symbols</p><p>Γ is the set of pushdown symbols (which can be pushed and popped from stack)</p><p>q0 is the initial state</p><p>Z is the initial pushdown symbol (which is initially present in stack)</p><p>F is the set of final states</p><p>δ is a transition function which maps Q x {Σ ∪ ∈} x Γ into Q x Γ*. In a given state, PDA will read input symbol and stack symbol (top of the stack) and move to a new state and change the symbol of stack.</p>
+        <div><h3 style="color: red;">Context-Sensitive Grammar:</h3><p>A Context-sensitive grammar is an Unrestricted grammar in which all the productions are of form</p><p>A-->B</p><p>where A,B ε (V,T)<sup>+</sup>and |B|≥|A|</p><p>Context-sensitive grammar has 4-tuples. G = {N, Σ, P, S}, Where</p><p>N = Set of non-terminal symbols</p><p>Σ = Set of terminal symbols</p><p>S = Start symbol of the production</p><p>P = Finite set of productions</p><p>All rules in P are of the form α1 A α2 –> α1 β α2</p></div>
+        <div><h3 style="color: red;">Recursive Enumerable (RE) or Type -0 Language:</h3><p>RE languages or type-0 languages are generated by type-0 grammars. An RE language can be accepted or recognized by Turing machine which means it will enter into final state for the strings of language and may or may not enter into rejecting state for the strings which are not part of the language. It means TM can loop forever for the strings which are not a part of the language. RE languages are also called as Turing recognizable languages.</p></div>
+        <div><h3 style="color: red;">Recursive Language (REC):</h3><p>A recursive language (subset of RE) can be decided by Turing machine which means it will enter into final state for the strings of language and rejecting state for the strings which are not part of the language.</p></div>
+        <div><h3 style="color: red;">Turing Machine:</h3><p>A turing machine consists of a tape of infinite length on which read and writes operation can be performed. The tape consists of infinite cells on which each cell either contains input symbol or a special symbol called blank. It also consists of a head pointer which points to cell currently being read and it can move in both directions.A TM is expressed as a 7-tuple (Q, T, B, ∑, δ, q0, F) where: </p><p>Q is a finite set of states</p><p>T is the tape alphabet (symbols which can be written on Tape)</p><p>B is blank symbol </p><p>∑ is the input alphabet </p><p>δ is a transition function which maps Q × T → Q × T × {L,R}. Depending on its present state and present tape alphabet (pointed by head pointer), it will move to new state, change the tape symbol (may or may not) and move head pointer to either left or right.</p><p>q0 is the initial state</p><p>F is the set of final states. If any state of F is reached, input string is accepted.</p></div>
+        <div><h3 style="color: red;">Halting Problem:</h3><p>Halting means that the program on certain input will accept it and halt or reject it and halt and it would never go into an infinite loop. Basically halting means terminating. So can we have an algorithm that will tell that the given program will halt or not. In terms of Turing machine, will it terminate when run on some machine with some particular given input string.</p></div>
+        <div><h1 style="color:palevioletred;text-align: center;">************</h1>
+    
+        </div>
+    </body>
+    </html>

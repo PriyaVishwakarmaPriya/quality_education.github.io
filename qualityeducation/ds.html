@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ds</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Satisfy&family=Shizuru&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Lavishly+Yours&family=Oleo+Script:wght@700&family=Rubik+Puddles&family=Satisfy&family=Tangerine:wght@700&family=Updock&family=Yellowtail&display=swap');
+       body{
+            margin:0px;
+            padding:0px;
+            background-color:darkseagreen;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+    
+
+        .left{
+           /* border:4px solid royalblue;*/
+            display: inline-block;
+            position:absolute;
+            left: 40px;
+            top:20px;
+        }
+
+        .mid{
+           /* border:4px solid rgb(225, 65, 201);*/
+            display: block;
+            width:33%;
+            margin:20px auto;
+            top:20px;
+
+        }
+        .right{
+           /* border:4px solid rgb(124, 225, 65);*/
+            position:absolute;
+            right: 40px;
+            top:20px;
+        }
+
+        .navbar{
+                 display: inline-block;
+        }
+        .navbar li{
+                       display: inline-block;
+                       font-size: 20px;
+        }
+        .navbar li a{
+            color:black;
+            text-decoration: none;
+            padding: 10px 10px;
+        }
+
+        .navbar li a:hover,.navbar li a.active{
+           
+           color:bisque;
+
+        }
+        
+        
+        .left img{
+            width: 110px;
+            
+            
+        }
+        .left div{
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Cookie', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lavishly Yours', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Updock', cursive;
+font-family: 'Yellowtail', cursive;}
+        
+        .btn{
+            padding:0px 10px;
+            background-color: crimson;
+            margin: 0px 10px;
+            color: aliceblue;
+            border: 2px solid black;
+            border-radius: 2px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;
+           
+        }
+        .btn:hover{
+            background-color: wheat;
+        }
+        .container{
+            border:4px solid rgb(29, 2, 2) ;
+            padding: 30px 30px;
+            margin: 60px auto;
+            width: 50%;
+            border-radius: 20px;
+        }
+
+        
+
+        .container h1{
+            text-align: center;
+        }
+        
+
+     </style>  
+</head>
+<body>
+    <header class="header">
+
+    
+    <div class="left">
+       <img src="https://thumbs.dreamstime.com/b/initial-letter-qe-logo-design-vector-template-digital-abstract-circle-180420420.jpg" alt="">
+    <div>Quality Education</div>
+    </div>
+    <div class="mid">
+           <ul type="disc"class="navbar">
+               <li><a href="home.html">Home</a></li>
+               <li><a>About Us </a></li>
+               <li><a>Center</a></li>
+               <li><a>Contact Us</a></li>
+           </ul>
+    </div>
+   
+    <div class="right">
+    <button class="btn"><a href="#">Call Us Now</a></button><button class="btn"><a href="#">E-mail Us</a></button>
+        </div>
+    </header> 
+    <div class="ds">
+        <div><h1 style="font-size: 30px; text-align: center;display: block;">DATA STRUCTURE</h1></div>
+        <div><h3 style="color: red;">Defination:</h3><p>A data structure is a way of organizing all data items that considers not only the elements stored but also their relationship to each other.It helps to understand the relationship of one element with the other. It helps in the organization of all data items within the memory.</p></div>
+             <h3 style="color:royalblue;">Basic terminologies used in data structure :</h3>
+            <p> 1. Data : Data are simply values or sets of values. A data item refers to a single unit of values.</p>
+            <p>2. Entity : An entity is something that has certain attributes or properties which may be assigned values.</p>
+            <p>3. Field : A field is a single elementary unit of information representing an attribute of an entity.</p>
+            <p>4. Record : A record is the collection of field values of a given entity.</p>
+            <p>5. File : A file is the collection of records of the entities in a given entity set. </p>
+        
+    </div> 
+<div><h3 style="color:red;text-align: center;">Algorithm:</h3><p>An algorithm is a step-by-step finite sequence of instructions, to solve a
+        well-defined computational problem.</p>
+</div>
+<div><h3 style="color: royalblue;">Characteristics of algorithm:-</h3>
+        <p>i. Input : There are zero or more quantities which are externally supplied.</p>
+        <p>ii. Output : At least one quantity is produced</p>
+        <P>iii. Definiteness : Each instruction must be clear and unambiguous.</P>
+        <P>iv. Finiteness : If we trace out the instructions of an algorithm, then for all cases the algorithm will terminate after a finite number of steps.</P>
+        <P>v. Effectiveness : Every instruction must be basic and essential.</P>
+</div>
+<div>
+    <h3 style="color: red;text-align: center;">Complexity of an algorithm</h3><p>The complexity of an algorithm M is the function f(n) which gives the running time and/or storage space requirement of the algorithm in terms of the size n of the input data.</p>
+</div>
+<div>
+    <h3 style="color: royalblue;">Types of complexity</h3><P>1. Space complexity : The space complexity of an algorithm is the amount of memory it needs to run to completion.</P><P>2. Time complexity : The time complexity of an algorithm is the amount of time it needs to run to completion</P>
+</div>
+<div><h3 style="color: red;text-align: center;">Asymptotic Notation</h3><p>Asymptotic notation is a shorthand way to describe running times for an
+    algorithm.It is a line that stays within bounds.These are also referred to as 'best case' and 'worst case' scenarios
+    respectively.</p><p>1.Big-Oh is formal method of expressing the upper bound of an algorithm's
+    running time.for non-negative functions, f (n) and g(n), if there exists an integer n0 and a constant c > 0 such that for all integers n > n0.
+    </p><P>f (n) <= cg(n)</P><p>2.Big-Omega :-We write f(n) = omega(g(n)) if there are positive constants n0 and c such that to the right of n0, the value of f(n) always lies on or above cg(n).</p><p>f (n) >= cg(n)</p><p>2.Theta:-This notation bounds a function to within constant factors.We say f(n) = theta(g(n))if there exist positive constants n0, c1 and c2 such that to the right of n0 the value of f(n) always lies between c1g(n) and c2g(n) inclusive.
+    </p><p>c1g(n)<=f(n)<=c2g(n)</p>
+</div>
+<div><h3 style="color: red;text-align: center;">Array</h3><p>An array can be defined as the collection of the sequential memory locations, which can be referred to by a single name along with a number known as the index, to access a particular field or data.</p><p>The general form of declaration is :</p><p>type variable-name [size];</p>
+</div> 
+<div><h3 style="color: red;text-align: center;">Linked List</h3><p>Linked list :A linked list, or one-way list, is a linear collection of data elements,
+    called nodes, where the linear order is given by means of pointers.Each node is divided into two parts: the first part contains the
+     information of the element, and the second part, called the link field or next pointer field, contains the address of the next node in
+    the list.</p>
+</div> 
+                     
+<div><h3 style="color: red;text-align: center;">Stack</h3><p>A stack, also called Last In First Out (LIFO) system, is a linear list in
+     which insertion and deletion can take place only at one end, called top.The insertion and deletion operation in stack terminology are known
+     as PUSH and POP operations.</p>
+</div> 
+        
+<div><h3 style="color: red;text-align: center;">Recursion</h3><p>Recursion is a process of expressing a function that calls itself to perform
+    specific operation. </p>
+</div>
+    
+<div><h3 style="color: red;text-align: center;">Queue</h3><p>Queue is a linear list which has two ends, one for insertion of elements
+    and other for deletion of elements.
+    The first end is called 'Rear' and the later is called 'Front'.Elements are inserted from Rear end and deleted from Front end.Queues are called First In First Out (FIFO) list, since the first element in
+     a queue will be the first element out of the queue.</p>
+</div>
+    
+
+<div><h3 style="color: red;text-align: center;">Searching Techniques:</h3></div>
+    <div><h4 style="color:royalblue">Linear Search</h4><p>In this type of search, a sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.</p></div>
+    <div><h4 style="color:royalblue">Binary Search</h4><p>Binary search looks for a particular item by comparing the middle most item of the collection. If a match occurs, then the index of item is returned. If the middle item is greater than the item, then the item is searched in the sub-array to the left of the middle item. Otherwise, the item is searched for in the sub-array to the right of the middle item. This process continues on the sub-array as well until the size of the subarray reduces to zero.</p></div>
+    <div><h3 style="color: red;text-align: center;">Sorting Techniques:</h3></div>
+    <div><h4 style="color:royalblue">Bubble Sort</h4><p>Bubble sort is a simple sorting algorithm. This sorting algorithm is comparison-based algorithm in which each pair of adjacent elements is compared and the elements are swapped if they are not in order. This algorithm is not suitable for large data sets as its average and worst case complexity are of O(n<sup>2</sup>) where n is the number of items.</p></div>
+    <div><h4 style="color:royalblue">Insertion Sort</h4><p>The array is searched sequentially and unsorted items are moved and inserted into the sorted sub-list (in the same array). This algorithm is not suitable for large data sets as its average and worst case complexity are of O(n<sup>2</sup>), where n is the number of items.</p></div>
+    <div><h4 style="color:royalblue">Selection Sort</h4><p>The smallest element is selected from the unsorted array and swapped with the leftmost element, and that element becomes a part of the sorted array. This process continues moving unsorted array boundary by one element to the right.</p></div>
+    <div><h4 style="color:royalblue">Merge Sort</h4><p>Merge sort is a sorting technique based on divide and conquer technique. With worst-case time complexity being O(n log n), it is one of the most respected algorithms.Merge sort first divides the array into equal halves and then combines them in a sorted manner.</p></div>
+<div><h3 style="color: red;text-align: center;">Graph</h3><p>A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.Formally, a graph is a pair of sets (V, E), where V is the set of vertices and E is the set of edges, connecting the pairs of vertices.</p></div>     
+<div>
+        <h4 style="color:royalblue">Depth First Search</h4><p>Depth First Search (DFS) algorithm traverses a graph in a depthward motion and uses a stack to remember to get the next vertex to start a search, when a dead end occurs in any iteration.It employs the following rules.</p>
+          <p>Rule 1.Visit the adjacent unvisited vertex. Mark it as visited. Display it. Push it in a stack.</p>
+          <p>Rule 2.If no adjacent vertex is found, pop up a vertex from the stack. (It will pop up all the vertices from the stack, which do not have adjacent vertices.)</p>
+          <p>Rule 3.Repeat Rule 1 and Rule 2 until the stack is empty.</p>
+</div>
+<div>
+    <h4 style="color:royalblue">Breadth First Search</h4><p>Breadth First Search (BFS) algorithm traverses a graph in a breadthward motion and uses a queue to remember to get the next vertex to start a search, when a dead end occurs in any iteration.It employs the following rules</p>
+</div>
+    <p>Rule 1. Visit the adjacent unvisited vertex. Mark it as visited. Display it. Insert it in a queue.</p>
+    <p>Rule 2. If no adjacent vertex is found, remove the first vertex from the queue.</p>
+    <p>Rule 3. Repeat Rule 1 and Rule 2 until the queue is empty.</p>
+
+<div><h3 style="color: red;text-align: center;">Trees</h3><p>Tree represents the nodes connected by edges.Binary Tree is a special datastructure used for data storage purposes. A binary tree has a special condition that each node can have a maximum of two children. A binary tree has the benefits of both an ordered array and a linked list as search is as quick as in a sorted array and insertion or deletion operation are as fast as in linked list. </p></div>
+<div><h4 style="color:royalblue">Binary Search Tree</h4><p>A Binary Search Tree (BST) is a tree in which all the nodes follow the below-mentioned properties −</p><p>1.The value of the key of the left sub-tree is less than the value of its parent (root) node's key.</p><p>2.The value of the key of the right sub-tree is greater than or equal to the value of its parent (root) node's key.</p></div>  
+<div><h4 style="color:royalblue"> Adelson, Velski & Landis, AVL trees</h4><p>Named after their inventor Adelson, Velski & Landis, AVL trees are height balancing binary search tree. AVL tree checks the height of the left and the right sub-trees and assures that the difference is not more than 1. This difference is called the Balance Factor.</p></div>
+<div><h1 style="color:palevioletred;text-align: center;">************</h1>
+</div>
+</body>
+</html>
